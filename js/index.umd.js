@@ -9,6 +9,7 @@ import Alert from './src/alert.js'
 import Button from './src/button.js'
 import Carousel from './src/carousel.js'
 import Collapse from './src/collapse.js'
+import CustomSelect from './src/custom-select.js'
 import Datepicker from './src/datepicker.js'
 import Dialog from './src/dialog.js'
 import Dropdown from './src/dropdown.js'
@@ -27,6 +28,7 @@ export default {
   Button,
   Carousel,
   Collapse,
+  CustomSelect,
   Datepicker,
   Dialog,
   Dropdown,

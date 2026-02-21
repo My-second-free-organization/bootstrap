@@ -76,7 +76,7 @@ highlightedCode = highlightedCode.replace(/shiki-themes/g, 'astro-code-themes')
 <script>
   import ClipboardJS from 'clipboard'
 
-  const btnTitle = 'Copy to clipboard'
+  const btnTitle = 'Copy'
 
   document.querySelectorAll('.code-copy').forEach((container) => {
     const btn = container.querySelector('.btn-clipboard')
@@ -144,7 +144,7 @@ highlightedCode = highlightedCode.replace(/shiki-themes/g, 'astro-code-themes')
 
 <div class="code-copy">
   <Fragment set:html={highlightedCode} />
-  <button type="button" class="btn-clipboard" title="Copy to clipboard">
+  <button type="button" class="btn-clipboard" title="Copy">
     <svg class="bi" aria-hidden="true">
       <use href="#clipboard" />
     </svg>

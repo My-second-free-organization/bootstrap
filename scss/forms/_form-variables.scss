@@ -2,9 +2,9 @@
 @use "../colors" as *;
 @use "../variables" as *;
 
-$control-min-height: 2.5rem !default;
+$control-min-height: 2.375rem !default;
 $control-min-height-sm: 2rem !default;
-$control-min-height-lg: 3rem !default;
+$control-min-height-lg: 2.75rem !default;
 $control-padding-y: .375rem !default;
 $control-padding-x: .75rem !default;
 $control-font-size: $font-size-base !default;
@@ -78,7 +78,7 @@ $input-font-size-lg:                    $input-btn-font-size-lg !default;
 
 $input-bg:                              var(--bg-body) !default;
 $input-disabled-color:                  null !default;
-$input-disabled-bg:                     var(--secondary-bg) !default;
+$input-disabled-bg:                     var(--bg-2) !default;
 $input-disabled-border-color:           null !default;
 
 $input-color:                           var(--fg-body) !default;
@@ -106,9 +106,9 @@ $input-height-inner-quarter:            add($input-line-height * .25em, $input-p
 // $input-height:                          add($input-line-height * 1em, add($input-padding-y * 2, $input-height-border, false)) !default;
 // $input-height-sm:                       add($input-line-height * 1em, add($input-padding-y-sm * 2, $input-height-border, false)) !default;
 // $input-height-lg:                       add($input-line-height * 1em, add($input-padding-y-lg * 2, $input-height-border, false)) !default;
-$input-height:                          2.5rem !default;
+$input-height:                          2.375rem !default;
 $input-height-sm:                       2rem !default;
-$input-height-lg:                       3rem !default;
+$input-height-lg:                       2.75rem !default;
 
 $input-transition:                      border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
